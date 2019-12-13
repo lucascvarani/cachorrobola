@@ -1,0 +1,193 @@
+.App {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+}
+
+#forms{
+  color: #008080;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+#tempo{
+  position:relative;
+  top: 10%;
+  left:45%;
+}
+
+#cor_tempo{
+  color: #008080;
+}
+
+.bt{
+  background-color: #008080;
+  color: #ffffff;
+  border: 0px;
+  height: 37px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bt:hover{
+  border: 2px solid #000000;
+}
+
+.input_palavra{
+  height: 30px;
+  margin-left: 10px;
+
+}
+
+#central{
+  position:relative;
+  top: 15px;
+  left: 30%;
+  /*background-color: #800000;*/
+  height: 900px;
+  width: 800px;
+  z-index: 4;
+  border: 1px solid #000000;
+}
+
+#title{
+  position:relative;
+  left:45%
+}
+#pontos{
+  position:absolute;
+  top: 0px;
+  bottom : 0px;
+  left: 0px;
+  /*background-color: #008000;*/
+  width: 200px;
+  border-right: 1px solid #000000;
+  height: 900px;
+  z-index: 3;
+}
+
+#pontuacaoFinal{
+  position:absolute;
+  top: 25%;
+  left: 45%;
+  bottom : 0px;
+  /*background-color: #008000;*/
+  width: 400px;
+  #border: 1px solid #000000;
+  height: 100px;
+  z-index: 3;
+}
+
+#jogarDenovo{
+  position:absolute;
+  top: 40%;
+  left: 450px;
+  bottom : 0px;
+  /*background-color: #008000;*/
+  width: 100px;
+  #border: 1px solid #000000;
+  height: 80px;
+  z-index: 3;
+}
+
+#bt_jogarDenovo{
+  background-color: #008080;
+  color: #ffffff;
+  border: 0px;
+  height: 37px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#palavra{
+  position:absolute;
+  top: 30%;
+  left: 350px;
+  bottom : 0px;
+  /*background-color: #008000;*/
+  width: 300px;
+  #border: 1px solid #000000;
+  height: 100px;
+  z-index: 3;
+}
+
+#chat{
+  position:absolute;
+  top:700px;
+  bottom : 0px;
+  left:200px;
+  /*background-color: #008000;*/
+  width: 600px;
+  border-top: 1px solid #000000;
+  height: 200px;
+  z-index: 3;
+}
+
+#img_face{
+  width: 100px;
+}
+
+.button{
+
+  /*background: transparent;*/
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  border: 0;
+  background: url("Red_button.png") no-repeat
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App2 {
+  background-color: red;
+  margin-top: 0%;
+  text-align: center;
+  height: auto;
+  width: 10%;
+  margin-bottom: 1%;
+
+}
+
+.App3 {
+  margin-top: 0px;
+  background-color: brown;
+}
+
+.App4 {
+  margin-top: 0.5%;
+  background-color: yellow;
+  height: auto;
+  width: 50%;
+}
+
+.margem {
+  margin: 0;
+}
+
+.h1{
+  text-align: center;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
